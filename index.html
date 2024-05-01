@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Aalarado</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles-darkmode-switch.css">
+    <link rel="stylesheet" href="assets/css/poppins-font.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="container">
+    <header>
+        <nav class="navbar">
+            <img id="logo" class="logo" src="assets/images/alarado-icon-homepage.svg" alt="Alarado Logo">
+            <div class="items-container poppins-medium">
+                <div class="item-nav">About Us</div>
+                <div class="item-nav">Product</div>
+                <div class="item-nav">Resource</div>
+                <div class="item-nav">Contact</div>
+            </div>
+            <div class="darkmode-switch">
+                <label class="ui-switch" for="dark-mode-switch">
+                    <input type="checkbox" id="dark-mode-switch">
+                    <div class="slider">
+                        <div class="circle"></div>
+                    </div>
+                </label>
+            </div>
+            <button class="mobile-nav" id="toggleBtn">
+                <img src="assets/images/menu-dark.svg" alt="BtnMenu" id="sidebarMenu">
+            </button>
+        </nav>
+
+        <div id="sidebar" class="poppins-medium">
+            <button id="closeBtn">
+                <img src="assets/images/xmark.svg" alt="Xmark">
+            </button>
+            <div class="sidebar_links">
+                <a href="#">Inicio</a>
+                <a href="#">Acerca de</a>
+                <a href="#">Servicios</a>
+                <a href="#">Contacto</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="info">
+            <div class="info__label poppins-semibold dark">😎 Simple way to communicate</div>
+            <div class="info__label poppins-bold dark">Actions for Accessibility in Design</div>
+            <div class="info__label poppins-medium">The fastest way to build and deploy websites with resusable components.</div>
+            <div class="info__label poppins-medium">
+                <button class="get-started-button poppins-medium">GET STARTED</button>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="get-live-demo">Get live demo</a>
+            </div>
+            <div class="info__label poppins-medium">
+                <div class="info__requeriments">
+                    <img src="assets/images/Done_ring_round_fill.svg">
+                    <span>No credit card required</span>
+                </div>
+                <div class="info__requeriments">
+                    <img src="assets/images/Done_ring_round_fill.svg">
+                    <span>No software to install</span>
+                </div>
+            </div>
+        </div>
+        <div class="container-hero-iamge">
+            <img class="hero-image" src="assets/images/hero-image-simple-homepage.png" alt="Hero Image">
+        </div>
+    </main>
+
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
